@@ -14,11 +14,24 @@
     -ms-backface-visibility: hidden;
     backface-visibility: hidden;
   }
-.navbar a {
+  nav button{
+      color: white;
+  }
+  .navbar-dark .navbar-toggler{
+    border-color: #28a745;
+  }
+  .login{
+      padding-right: 16px;
+      padding-left: 16px;
+  }
+/* .navbar {
     color: white;
     text-transform: capitalize;
-}
-
+} */
+/* .nav-item:hover{
+    background-color: black;
+    color:white
+} */
 .header {
     padding: 80px 30px;
     text-align: center;
@@ -41,29 +54,39 @@
 }
 
 .header-container {
-    min-height: 100vh;
+    min-height: 100%;
+    text-transform: capitalize;
+    background-position: center;
     background-attachment: fixed;
     background-image: url(./src/background-header.jpg);
 }
 .btn{
     /* font-family: sans-serif; */
 }
+.body-text{
+    height: 100%;
+    padding-top: 80px;
+}
+
+
+
+
 .social-icon{
     height: 100px;
     padding: 20px;
     align-items: center;
     text-align: center;
     letter-spacing: 20px;
-    background: linear-gradient(white,black);
+    background: linear-gradient(white ,rgb(219, 219, 219),rgb(56, 56, 56));
 }
 .social-icon img{
     height: 60px;
     width: 60px;
 }
 div.footer{
-    height: 300px;
+    /* height: 300px; */
     width: 100%;
-    background-color: rgb(56, 56, 56);
+    background:linear-gradient( rgb(56, 56, 56),rgb(37, 37, 37));
     color: white;
     
     /* background-image: url(./src/foter.jpg); */
